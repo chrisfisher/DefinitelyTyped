@@ -528,9 +528,9 @@ declare namespace  __React {
             linear:LayoutAnimationConfig
             spring: LayoutAnimationConfig
         }
-        easeInEaseOut: (config: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
-        linear: (config: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
-        spring: (config: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
+        easeInEaseOut: (config?: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
+        linear: (config?: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
+        spring: (config?: LayoutAnimationConfig, onAnimationDidEnd?: () => void) => void
     }
 
     export type FlexAlignType = "flex-start" | "flex-end" | "center" | "stretch";
